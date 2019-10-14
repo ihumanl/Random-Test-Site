@@ -57,16 +57,65 @@
 		}
 		.picframe {
 			background-color:#C0C0C0;
-			width:25%;
+			width:200px;
+			height:300px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			margin-bottom:25px;
 			margin-left:25px;
+			padding:0;
 		}
 		.container {
 			text-align: center;
 			margin: auto;
 			padding:20px
 		}
+		
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: auto;
+			grid-template-areas:
+			"grid-item1 grid-item2";
+		}
+		.grid-item1 {
+			grid-area: grid-item1;
+
+		}
+		.grid-item2 {
+			grid-area: grid-item2;
+			margin-left: 515px;
+			
+		}
+		.grid-item3 {
+			grid-area: grid-item3;
+			
+		}
+		.vidone {
+		
+		
+		}
+		.titletext {
+			Position: absolute;
+			top:  70%;
+			right:15.4%;
+			font-size:26px;
+			text-align:center;
+		}
+		
+		#text1 {
+			font-family: verdana;
+			font-size: 16px;
+		}
+		.table1 {
+			margin-left: 10%;
+			text-align:center;
+			font-size:10px;
+			font-style:italic;
+			border-spacing: 80px;
+			padding:-100px;
+			
+		}
+		
 		
 	</style>
 </head>
@@ -78,56 +127,59 @@
 		<div class="logo">
 			<a href="https://www.jeffc26.live/">My Bio's Page</a>
 		</div>
-		<li><a href="https://www.jeffc26.live/">Home</a></li>
+		<li><a href="https://www.jeffc26.live/" title="Click this to return to homepage">Home</a></li>
 		<li><a href="Pasta/pasta.html">Favorite Recipe</a></li>
+		<li><a href="https://online.valenciacollege.edu/">Canvas</a></li>
+		<li><a href="https://catalog.valenciacollege.edu/studentservices/atlas/">Atlas</a></li>
 		<li><a href="cheese/cheese.html">Cheese</a></li>
 		<li><a href="https://www.youtube.com/channel/UC1VXUhsXiMCOGunOoibb7Hg">Youtube Channel</a></li>
 	</ul>
+	
+	<div class="grid-container">
+	<div class="grid-item1">
 	<div class="picframe">
-		<img src="images/cheesy.jpg" alt="smiling in fron of kanye poster" style="width:100%">
+		<a href="images/cheesy.jpg" title="Click To Enlarge"><img src="images/cheesy.jpg" alt="smiling in fron of kanye poster" style="width:100%"></a>
 	<div class="container">
 		<p>This is when i got my Kanye Poster</p>
 	</div>
 	</div>
-		
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
-	<p>asasa</p>
+	</div>
+	
+	<div class="grid-item2">
+	<div class="picframe">
+		<a href="images/mrt.jpg" title="Click To Enlarge"><img src="images/mrt.jpg" alt="class picture" style="width:100%"></a>
+	<div class="container">
+		<p>My friends edited my old school pic</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<table class="table1">
+	<tr>
+	<td>
+	<p id="text1">This is a quick video of me clapping my friend in a game of<br />smash</p><div class="vidone"><video width="400" height="230" controls>
+		<source src="Video/kirby.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video></td>
+	<td>
+	<p id="text1">While i am also really into smash, i am a huge Kanye West<br />Fan(as you prob can tell)</p>
+	<iframe width="400" height="230" src="https://www.youtube.com/embed/gfj5FYaCxIA" frameborder="0" allowfullscreen></iframe>
+	</td>
+	</tr>
+	</div>
+	</table>
+	
+	<div class="titletext"><p>Welcome to my biography page!<br />Down below you will learn about
+		what interests me and view some funny clips, images.<br />As we continue the semester i 
+		will continuosly update this page with more info and pictures.</p></div>
+	
+	<p>Place Holder</p>
+	<p>Place Holder</p>
+	<p>Place Holder</p>
+	<p>Place Holder</p>
+	<p>Place Holder</p>
+	<p>Place Holder</p>
+	<p>Place Holder</p>
 </body>
 </html>
