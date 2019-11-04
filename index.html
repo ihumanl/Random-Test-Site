@@ -113,9 +113,10 @@
 			font-style:italic;
 			border-spacing: 80px;
 			padding:-100px;
-			
 		}
-		
+		.table2 {
+			border-style: 1px solid black;
+		}
 		
 	</style>
 </head>
@@ -127,7 +128,7 @@
 		<div class="logo">
 			<a href="https://www.jeffc26.live/">My Bio's Page</a>
 		</div>
-		<li><a href="https://www.jeffc26.live/" title="Click this to return to homepage">Home</a></li>
+		<li><a href="https://www.jeffc26.live/" *>Home</a></li>
 		<li><a href="Pasta/pasta.html">Favorite Recipe</a></li>
 		<li><a href="https://online.valenciacollege.edu/">Canvas</a></li>
 		<li><a href="https://catalog.valenciacollege.edu/studentservices/atlas/">Atlas</a></li>
@@ -174,12 +175,119 @@
 		what interests me and view some funny clips, images.<br />As we continue the semester i 
 		will continuosly update this page with more info and pictures.</p></div>
 	
-	<p>Place Holder</p>
-	<p>Place Holder</p>
-	<p>Place Holder</p>
-	<p>Place Holder</p>
-	<p>Place Holder</p>
-	<p>Place Holder</p>
-	<p>Place Holder</p>
+<form>
+	<table class="table2">
+		<tr>
+			<td colspan="3">
+				<img src="images/Valencia.png" alt="Valencia's logo" height="130px" width="400px">
+			</td>
+		</tr>
+		<tr>
+			<th colspan="3">
+			<p>Website Survey</p>
+			</th>
+		</tr>
+		<tr>
+			<td>
+			<p>First Name</p>
+			</td>
+			<td>
+				<input type="text" Placeholder="First Name" name="">
+			</td>
+			<td>
+			<p>Last Name</p>
+			</td>
+			<td>
+				<input type="text" Placeholder="Last Name" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>Password (10 Characters Max)</p>
+			</td>
+			<td>
+				<input type="password" Placeholder="Password" name="">
+			</td>
+		</tr>
+		<tr>
+			<td> 
+				<p>Please indicate your gender:</p>
+			</td>
+			<td>
+				<input type="radio" name="gender"> Male
+				<input type="radio" name="gender"> Female
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Which these colors pick which ones you like:</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				White:<input type="checkbox" name="colors" value="white">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Red:<input type="checkbox" name="colors" value="red">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Blue:<input type="checkbox" name="colors" value="blue">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Pick your favorite sport</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<select>
+					<option>League of legends</option>
+					<option>Track</option>
+					<option>Football</option>
+					<option>Vollyball</option>
+					<option>Tennis</option>
+					<option>Golf</option>
+					<option>Soccer</option>
+					<option>Polevault</option>
+					<option>Swimming</option>
+					<option>Iceskating</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Give your thoughts on Global Warming</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<textarea rows="20" cols="50">
+				</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>Select a file to submit along with the survey:</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="file" name="File.pdf">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="submit">
+			</td>
+		</tr>
+	</table>
+	</form>
+		
+
 </body>
 </html>
